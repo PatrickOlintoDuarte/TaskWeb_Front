@@ -1,0 +1,83 @@
+.tela-atividade .form-container {
+    background-color: #005a4c; /* Cor de fundo do quadrado */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin: 20px auto;
+    max-width: 600px; /* Largura máxima para centralizar */
+    width: 100%; /* Ocupa toda a largura disponível */
+    display: flex;
+    flex-direction: column; /* Empilhando os elementos */
+    gap: 20px; /* Espaçamento entre os campos */
+}
+
+.tela-atividade h2 {
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+}
+
+.tela-atividade div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.tela-atividade label {
+    width: 150px;
+    margin-right: 10px;
+    text-align: right;
+    color: #fff;
+}
+
+.tela-atividade input,
+.tela-atividade select,
+.tela-atividade textarea {
+    width: 300px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.tela-atividade button {
+    padding: 5px 50px;
+    margin-left: 60px;
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(to left, #049a8f, #049a8f);
+    color: #fff;
+    border-radius: 15px;
+}
+
+.tela-atividade button:hover {
+    background: linear-gradient(to right, #4776E6, #049a8f);
+}
+
+/* Responsividade */
+@media only screen and (max-width: 600px) {
+    .tela-atividade .form-container {
+        padding: 15px;
+        margin: 10px;
+    }
+
+    .tela-atividade div {
+        flex-direction: column; /* Alterando a direção para empilhar os elementos em telas menores */
+    }
+
+    .tela-atividade label {
+        width: auto; /* Permitindo que os rótulos ocupem o espaço necessário em telas menores */
+        margin-right: 0;
+        text-align: left;
+    }
+
+    .tela-atividade button {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
