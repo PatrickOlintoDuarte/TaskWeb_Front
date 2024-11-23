@@ -2,7 +2,7 @@
   "name": "taskweb",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://PatrickOlintoDuarte.github.io/TaskWeb_Front",
+  "homepage": "https://patrickolintoduarte.github.io/taskweb_front",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
